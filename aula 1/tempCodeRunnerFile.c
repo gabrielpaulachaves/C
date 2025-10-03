@@ -1,1 +1,1 @@
-"Valor inteiro: %d"
+#include <stdlib.h>
