@@ -11,7 +11,7 @@ scanf("%f", &nota);
 if(nota >= 5){
     printf("Parabens, voce foi aprovado");
 }else{
-    printf("voce se fudeu");
+    printf("voce reprovou");
 }
 
     return 0;
