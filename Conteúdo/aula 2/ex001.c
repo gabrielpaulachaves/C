@@ -2,7 +2,7 @@
 
 /*Variáveis*/
 int main(){
-
+ int cu = 30;
 
 
 

@@ -4,7 +4,7 @@ int main(){
      int idade = 0;
      int ano = 0;
     float salario;
-    char nome[30];
+    char nome[30] = "";
 
 printf("Informe sua idade e ano: ");
 scanf("%d %d", &idade, &ano);
