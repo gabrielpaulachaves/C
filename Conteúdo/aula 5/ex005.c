@@ -18,7 +18,7 @@ int main (void){
     puts("");
 
     printf("Insira um dado (usando fgets): ");
-    fgets(s, 10, stdin);
+    fgets(s, 30, stdin);
     fflush(stdin);
 
     puts("Resultado: ");
