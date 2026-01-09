@@ -7,7 +7,7 @@ int main (void){
     float s = 0;
 
     for(i=0;i<5;i++){
-        s+= v[i];
+        s+= v[i];   /*aqui o i vai andando posição por posição, ele é o índice do vetor. Ele foi definido como 0 dentro do for, ou seja, é ele que vai representar o primeiro índice nesse vetor e ao passar do código, irá representar os próximos índices*/ 
     }
 
     printf("Resultado: %f\n", s/5);

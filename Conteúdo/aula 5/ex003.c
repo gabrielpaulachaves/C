@@ -8,6 +8,7 @@ int main(void){
 
         for(i=0;i<5;i++){
             printf("Digite um dado: ");
+            fgets(i, sizeof(v[5]), stdin);
             scanf("%d", &v[i]);
         }
 
@@ -18,3 +19,5 @@ int main(void){
 
     return 0;
 }
+
+/*scanf tenta converter quando o dado entra, já o fgets lê o texto da forma como é, eu que preciso converter depois*/
