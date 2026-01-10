@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
 
@@ -8,7 +9,10 @@ int main(void){
 
         for(i=0;i<5;i++){
             printf("Digite um dado: ");
-            fgets(i, sizeof(v[5]), stdin);
+            /*
+            getchar(); lê um único caracter do teclado,e quando der ENTER, volta pro ASCII desse caracter
+            fgets(i, sizeof(v), stdin);
+            v[strlen(v) - 1] = "\0"  quando damos enter no fgets, ele tbm leva em consideração o ENTER, então esse comando evita que ele pule linha*/
             scanf("%d", &v[i]);
         }
 
