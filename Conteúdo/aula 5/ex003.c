@@ -10,7 +10,7 @@ int main(void){
         for(i=0;i<5;i++){
             printf("Digite um dado: ");
             /*
-            getchar(); lê um único caracter do teclado,e quando der ENTER, volta pro ASCII desse caracter
+            getchar(); ele lê o último caracter que sobrou, bom usar quando o último caracter é o ENTER (\n), bom usar ele antes do fgets quando há um scanf logo acima pois remove o \n do buffer que vem depois da leitura. Ele lê caracter por caracter de uma entrada (se for uma palavra)
             fgets(i, sizeof(v), stdin);
             v[strlen(v) - 1] = "\0"  quando damos enter no fgets, ele tbm leva em consideração o ENTER, então esse comando evita que ele pule linha*/
             scanf("%d", &v[i]);
