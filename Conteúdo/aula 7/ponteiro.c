@@ -16,3 +16,5 @@ int main(void){
     //ponteiro indica o local de onde está a variável
     return 0;
 }
+//alocação de memória
+//automática: usar, quando terminar, liberar aquele espaó que estava sendo usado. ex: funçao
