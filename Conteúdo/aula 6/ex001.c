@@ -20,5 +20,7 @@ int main (void){
     printf("exibindo os valores da segunda coluna: \n");
     printf("%d, %d, %d\n", matriz[0][1], matriz[1][1], matriz[2][1]);
 
+    
+
     return 0;
 }

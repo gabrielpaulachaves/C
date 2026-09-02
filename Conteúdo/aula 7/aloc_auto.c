@@ -16,8 +16,9 @@ int main(void){
     //ponteiro indica o local de onde está a variável
     return 0;
 }
+
 //alocação de memória
-//automática: usar, quando terminar, liberar aquele espaó que estava sendo usado. ex: funçao
+//automática: usar, quando terminar, liberar aquele espaço que estava sendo usado. ex: funçao
 //estatica: permanece na memoria durante toda a execucao. ex: variaveis globais ou consts.
 //dinamica: aloca e libera espaço conforme necessário (lembra um pouco nuvem)
 
