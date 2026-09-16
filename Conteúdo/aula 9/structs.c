@@ -3,7 +3,7 @@
  #include <string.h>
 
 int main(void){
-struct individuo{
+struct individuo{  //tipo classe em javascript
     char nome[50];
     int idade;
     char tel[30];
@@ -12,9 +12,9 @@ struct individuo{
 //isso me lembra objeto em javascript
 
 //iniciando struct
-struct individuo pessoa1[2];
+struct individuo pessoa1[2]; //"instancias" criadas a partir daquela "classe"
 int i;
-strcpy(pessoa1[0].nome, "Trevo Philips");
+strcpy(pessoa1[0].nome, "Trevo Philips"); //strcpy é apenas para quando for usar char
 pessoa1[0].idade = 43;
 strcpy(pessoa1[0].tel, "não vou contar");
 
