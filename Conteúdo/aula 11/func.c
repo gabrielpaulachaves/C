@@ -5,7 +5,7 @@ int power(int m, int n); //declaraçao da funcao
 
 int main(void){
     int i;
-    for(i =1; i<=9; i++){
+    for(i = 1; i<=9; i++){
         printf("valor de i= %d, valor da function= %d\n", i, power(2, i));
 
     }
